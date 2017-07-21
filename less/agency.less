@@ -83,16 +83,15 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-custom {
     background-color: @gray-darker;
     border-color: transparent;
+
     .navbar-brand {
-        color: @theme-primary;
-        .script-font;
-        &:hover,
-        &:focus,
-        &:active,
-        &.active {
-            color: darken(@theme-primary, 10%);
+            padding: 0px 10px;
+            height: 50px;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
         }
-    }
+    
     .navbar-collapse {
         border-color: fade(white, 2%);
     }
@@ -137,13 +136,14 @@ h1, h2, h3, h4, h5, h6 {
 @media(min-width:768px) {
     .navbar-custom {
         background-color: transparent;
-        padding: 25px 0;
+        padding: 15px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
         transition: padding 0.3s;
         border: none;
         .navbar-brand {
-            font-size: 2em;
+            padding: 0px;
+            height: 70px;
             -webkit-transition: all 0.3s;
             -moz-transition: all 0.3s;
             transition: all 0.3s;
@@ -161,13 +161,13 @@ h1, h2, h3, h4, h5, h6 {
         background-color: @gray-darker;
         padding: 10px 0;
         .navbar-brand {
-            font-size: 1.5em;
+            height: 50px;
         }
     }
 }
 
 header {
-    background-image: url('../img/header-bg.jpg');
+    background-image: url('../img/header.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
