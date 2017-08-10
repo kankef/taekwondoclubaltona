@@ -1,9 +1,9 @@
 {
-  "name": "agency",
-  "title": "Agency",
+  "name": "taekwondo",
+  "title": "Taekwondo Club Altona",
   "version": "3.3.7+1",
   "homepage": "http://startbootstrap.com/template-overviews/agency",
-  "author": "Start Bootstrap",
+  "author": "Felix Kanke",
   "license": {
     "type": "MIT",
     "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
