@@ -75,12 +75,14 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <!--div class="intro-lead-in">Welcome To Our Studio!</div-->
+                <!-- <div class="intro-lead-in" style="color: transparent">Welcome To Our Studio!</div> -->
                 <div class="intro-heading">Taekwondo Club Altona</div>
                 <a href="#news" class="page-scroll btn btn-xl">See Events</a>
             </div>
         </div>
     </header>
+
+    <!-- Facebook Link & Announcement -->
 
     <aside class="facebook-info">
         <div class="row">
@@ -156,6 +158,34 @@
                                 <div class="td">Advanced - Contact Class</div>
                             </div>
                         </div>
+                    </div>
+                    <div>
+                        <div class="panel panel-default panel-table">
+                                <div class="panel-body">
+                                    <div class="tr">
+                                        <div class="td">Tigers</div>
+                                        <div class="td">Children Ages 3-7</div>
+                                    </div>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="tr">
+                                        <div class="td">Beginner</div>
+                                        <div class="td">Adults and Children. White Belt to Green Stripe</div>
+                                    </div>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="tr">
+                                        <div class="td">Advanced</div>
+                                        <div class="td">Adults and Children. Green Belt and up</div>
+                                    </div>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="tr">
+                                        <div class="td">Therapeutic Exercise</div>
+                                        <div class="td">Based on Yoga</div>
+                                    </div>
+                                </div>
+                            </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -237,7 +267,7 @@
                     <div class="team-member">
                         <img src="img/team/Sergej Head.jpg" class="img-responsive img-circle" alt="">
                         <h4>Master Sergej Kanke</h4>
-                        <p class="text-muted">Owner - More than 20 Years of Taekwondo Experience in Three Different Systems. Certified Therapeutical Yoga Instructor. Registered Massage Therapist.</p>
+                        <p class="text-muted">Owner - More than 20 Years of Taekwondo Experience in Three Different Systems. Therapeutic Yoga Teacher. Registered Massage Therapist.</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -268,7 +298,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <div class="pricing-member">
                         <ul class="list-group">
                             <li class="list-group-item">
@@ -282,7 +312,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <div class="pricing-member">
                         <ul class="list-group">
                             <li class="list-group-item">
@@ -296,7 +326,7 @@
                         </ul>                       
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <div class="pricing-member">
                         <ul class="list-group">
                            <li class="list-group-item">
@@ -310,19 +340,38 @@
                         </ul>                        
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="pricing-member">
-                        <ul class="list-group">
-                           <li class="list-group-item">
-                                <h4>Exercise for Back and Neck pain - 15 Weeks</h4>
-                            </li>
-                            <li class="list-group-item">2 Sessions per Week</li>
-                            <li class="list-group-item">75 Minutes per Session</li>
-                            <li class="list-group-item bg-light-gray">
-                                <h2 class="list-group-item-heading"><i class="fa fa-usd"></i><b>300</b></h2>
-                                <p class="list-group-item-text">total</p>
-                            </li>
-                        </ul>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 pricing-float">
+                    <div class="col-sm-6">
+                        <div class="pricing-member">
+                            <ul class="list-group">
+                            <li class="list-group-item">
+                                    <h4>Tigers</h4>
+                                </li>
+                                <li class="list-group-item">2 Sessions per Week</li>
+                                <li class="list-group-item">45 Minutes per Session</li>
+                                <li class="list-group-item bg-light-gray">
+                                    <h2 class="list-group-item-heading"><i class="fa fa-usd"></i><b>300</b></h2>
+                                    <p class="list-group-item-text">total</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="pricing-member">
+                            <ul class="list-group">
+                            <li class="list-group-item">
+                                    <h4>Exercise for Back and Neck pain - 15 Weeks</h4>
+                                </li>
+                                <li class="list-group-item">2 Sessions per Week</li>
+                                <li class="list-group-item">75 Minutes per Session</li>
+                                <li class="list-group-item bg-light-gray">
+                                    <h2 class="list-group-item-heading"><i class="fa fa-usd"></i><b>300</b></h2>
+                                    <p class="list-group-item-text">total</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -375,29 +424,6 @@
                 </div>
                 <div class="col-lg-4 panel panel-default">
                     <div id="map" class="panel-body"></div>
-
-                    <script>
-                    function myMap() {
-                        var latLng = {lat: 49.104366, lng: -97.557376};
-
-                        var mapOptions = {
-                            center: latLng,
-                            zoom: 18,
-                            scrollwheel: false,
-                            mapTypeControl: false
-                        }
-                        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-
-                        var marker = new google.maps.Marker({
-                            position: latLng,
-                            map: map,
-                            title: "Taekwondo Club Altona"
-                        })
-                    }
-                    </script>
-
-                    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
-
                     <hr>
                     <div class="panel-body">
                         <p><i class="fa fa-map-marker"></i>&nbsp;&nbsp;34 2nd Ave. NE Altona, MB</p>
@@ -445,6 +471,11 @@
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
+
+    <!-- Map -->
+    <script src="js/map.js"></script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9lXprYQizOnvUkb9r7KLRV4RdASJRhWQ&callback=myMap"
+  type="text/javascript"></script>
 
     <!--Google Calendar Events-->
     <script src="js/events.js"></script>
