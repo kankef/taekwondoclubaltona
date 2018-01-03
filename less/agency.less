@@ -183,7 +183,6 @@ header {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
-   // min-height: 700px;
     .background-cover;
     text-align: center;
     color: @theme-primary;
@@ -210,6 +209,7 @@ header {
 
 @media(min-width:768px) {
     header {
+        min-height: 700px;
         .intro-text {
             padding-top: 300px;
             padding-bottom: 200px;
@@ -228,6 +228,12 @@ header {
                 margin-bottom: 50px;
             }
         }
+    }
+}
+
+@media(min-width:1600px) {
+    header {
+        min-height: 900px;
     }
 }
 

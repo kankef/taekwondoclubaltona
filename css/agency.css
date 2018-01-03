@@ -266,6 +266,9 @@ header .intro-text .intro-heading {
   margin-bottom: 25px;
 }
 @media (min-width: 768px) {
+  header {
+    min-height: 700px;
+  }
   header .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
@@ -284,6 +287,11 @@ header .intro-text .intro-heading {
     font-size: 75px;
     line-height: 75px;
     margin-bottom: 50px;
+  }
+}
+@media (min-width: 1600px) {
+  header {
+    min-height: 900px;
   }
 }
 section {
