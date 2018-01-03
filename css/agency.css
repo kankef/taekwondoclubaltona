@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Taekwondo Club Altona v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2017 Felix Kanke
+ * Copyright 2013-2018 Felix Kanke
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
@@ -234,7 +234,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/header2.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -329,18 +329,6 @@ aside.facebook-info .facebook-message .social-buttons a {
     margin-left: 20px;
     margin-right: 20px;
   }
-}
-.schedule-desc .tr .td {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  background-color: #f5f5f5;
-}
-.schedule-desc .tr .td:first-child {
-  border-radius: 4px 0 0 0;
-}
-.schedule-desc .tr .td:last-child {
-  border-radius: 0 4px 0 0;
 }
 .panel-table {
   display: table;
